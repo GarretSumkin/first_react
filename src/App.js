@@ -23,11 +23,6 @@ function App() {
           <p>Hello world</p>
         <img src={myLogo} className="App-logo" alt="logo" />
           <MyFunction text="Garret"/>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-          <MyFunction text="!"/>
-          <MyFunctionSecond href="https://reactjs.org"/>
         <a
           className="App-link"
           href="https://reactjs.org"
