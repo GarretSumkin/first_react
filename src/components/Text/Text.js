@@ -2,7 +2,7 @@ import React from 'react';
 import "./Text.scss"
 
 const Text = () => {
-    const text = ""
+    const text = "Component text"
 
     return (
         <div className={"text"}>
