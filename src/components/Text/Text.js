@@ -1,12 +1,11 @@
 import React from 'react';
 import "./Text.scss"
 
-const Text = () => {
-    const text = "Component text"
+const Text = (props) => {
 
     return (
         <div className={"text"}>
-            {text}
+            <p>{props.content}</p>
         </div>
     );
 };
